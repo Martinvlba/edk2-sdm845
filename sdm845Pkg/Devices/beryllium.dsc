@@ -12,7 +12,7 @@
 !include sdm845Pkg/sdm845Pkg.dsc
 
 [BuildOptions.common]
-  -DDISPLAY_DPI=403 -DENABLE_SIMPLE_INIT
+  GCC:*_*_AARCH64_CC_FLAGS = -DDISPLAY_DPI=403 -DENABLE_SIMPLE_INIT
 
 [PcdsFixedAtBuild.common]
   # System Memory (5GB)
