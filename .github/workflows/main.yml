@@ -22,29 +22,7 @@ jobs:
       max-parallel: 8
       matrix:
         device:
-          - dipper
-          - enchilada
-          - enchilada-8g
-          - fajita
-          - fajita-8g
-          - polaris
-          - polaris-8g
           - beryllium
-          - perseus
-          - nx616j
-          - m1892
-          - m1882
-          - skr-a0
-          - judyln
-          - star2qltechn
-          - dipper-old
-          - pafm00
-          - trident
-          - draco
-          - pd1821
-          - odin-base
-          - akershus
-          - equuleus
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
